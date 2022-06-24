@@ -16,3 +16,13 @@ let result = userCheck.test(username);
 let ohStr = "Ohhh no";
 let ohRegex = /oh{3,6}\sno/gi; // Change this line
 let result = ohRegex.test(ohStr);
+
+
+
+\\Antecipação Positiva e Negativa
+
+\\Coresponder a senhas com mias de  5 caracteres e com dois digitos consecutivos.
+
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{6})(?=\w*\d{2})/; // Change this line
+let result = pwRegex.test(sampleWord);
