@@ -6,3 +6,13 @@ let result = userCheck.test(username);
 //2- Os únicos números no nome do usuário devem estar no //final. Pode haver zero ou mais deles no final. O nome do usuário não pode começar com número.
 //3- As letras dos nomes de usuário podem ser minúsculas e /maiúsculas.
 //4- Os nomes de usuário devem ter pelo menos dois //caracteres. Um nome de usuário de dois caracteres só pode //usar letras do alfabeto.
+
+
+
+//Especifique o número superior e inferior de correspondências
+
+//corresponder à frase inteira Oh nosomente quando for 3necessário a 6letra h's.
+
+let ohStr = "Ohhh no";
+let ohRegex = /oh{3,6}\sno/gi; // Change this line
+let result = ohRegex.test(ohStr);
